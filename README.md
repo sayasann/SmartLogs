@@ -31,11 +31,13 @@ alert_level	One of: LOW, MEDIUM, HIGH, CRITICAL
 battery	Integer 0–100. Required
 firmware_ver	Format: vX.Y.Z. Range must be explicitly defined
 event_code	Integer 0–255
+
+
 🛠 Usage
 
 ./your_program -separator <1|2|3> -opsys <1|2|3> [-h]
 
-    -separator: 1 = comma ,, 2 = tab \t, 3 = semicolon ;
+    -separator: 1 = comma ,  2 = tab \t  3 = semicolon ;
 
     -opsys: 1 = Windows (\r\n), 2 = Linux (\n), 3 = macOS (\r)
 
